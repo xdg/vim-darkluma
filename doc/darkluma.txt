@@ -1,0 +1,21 @@
+*darkluma.txt*	For Vim version 8.0	Last change: 2019 Oct 18
+
+
+		  Dark Luma color scheme    by David
+
+Dark Luma, a dark, minimialist scheme with high contrast and balanced
+brightness.
+
+==============================================================================
+Color scheme options					darkluma-options*
+
+						*g:darkluma_dark_comments*
+Set to 1 if you want comments to be muted instead of bright.  Read
+https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/ for
+why the default is bright.
+>
+	let g:darkluma_dark_comments = 1
+<
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
+

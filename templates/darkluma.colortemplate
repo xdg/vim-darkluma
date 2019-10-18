@@ -1,0 +1,133 @@
+# Information {{{
+# Mandatory
+Full name:     Dark Luma
+Short name:    darkluma
+Author:        David Golden <xdg@xdg.me>
+# Optional
+Website:       https://github.com/xdg/vim-darkluma
+Description:   Dark, minimalist scheme with high contrast and balanced brightness
+License:       MIT
+Neovim:        yes
+# }}}
+
+# Documentation {{{
+Include: _help.colortemplate
+# }}}
+
+# Common linked groups {{{
+Include: _linked_groups.colortemplate
+# }}}
+
+Background: dark
+
+# Color palette {{{
+# Color name         GUI                     Base256     Base16 (optional)
+Color: black         rgb(  0,   0,   0)        ~         Black
+Color: red           rgb(255,  77, 106)        ~         DarkRed
+Color: green         rgb( 34, 204,   0)        ~         DarkGreen
+Color: yellow        rgb(204, 170,   0)        ~         DarkYellow
+Color: blue          rgb(102, 128, 255)        ~         DarkBlue
+Color: magenta       rgb(221,  51, 255)        ~         DarkMagenta
+Color: cyan          rgb(  0, 204, 170)        ~         DarkCyan
+Color: white         rgb(204, 204, 204)        ~         LightGrey
+
+Color: gray          rgb( 64,  64,  64)        ~         DarkGrey
+Color: brightred     rgb(255, 153, 170)        ~         LightRed
+Color: brightgreen   rgb( 40, 240,   0)        ~         LightGreen
+Color: brightyellow  rgb(230, 191,   0)        ~         LightYellow
+Color: brightblue    rgb(163, 179, 255)        ~         LightBlue
+Color: brightmagenta rgb(234, 128, 255)        ~         LightMagenta
+Color: brightcyan    rgb(  0, 254, 187)        ~         LightCyan
+Color: brightwhite   rgb(255, 255, 255)        ~         White
+
+# Background shades outside the normal palette
+Color: black90pct    rgb( 25,  25,  25)        ~         Black
+Color: darkgold      rgb(102,  85,   0)        ~         Black
+Color: darkgreen     rgb( 17, 102,   0)        ~         Black
+Color: darkblue      rgb(  0,  26, 153)        ~         Black
+# }}}
+
+# Terminal colors {{{
+Term colors: black red green yellow blue magenta cyan white
+Term colors: gray brightred brightgreen brightyellow
+Term colors: brightblue brightmagenta brightcyan brightwhite
+# }}}
+
+# Default highlight groups {{{
+Variant: gui 256 16
+
+# Group              Foreground        Background        Attributes
+ColorColumn          none              none
+Conceal              none              none
+Cursor               white             black             reverse
+CursorColumn         white             black
+CursorIM             none              fg
+CursorLine           none              black90pct
+CursorLineNr         white             black
+DiffAdd              green             black             reverse
+DiffChange           yellow            black             reverse
+DiffDelete           red               black             reverse
+DiffText             yellow            black             bold,reverse
+Directory            blue              black
+EndOfBuffer          gray              black
+ErrorMsg             red               black
+FoldColumn           white             black
+Folded               white             gray
+IncSearch            white             darkgreen
+LineNr               gray              black
+MatchParen           red               black
+ModeMsg              gray              black
+MoreMsg              white             black
+NonText              gray              black
+Normal               white             black
+Pmenu                white             black
+PmenuSbar            white             black
+PmenuSel             white             black
+PmenuThumb           white             black
+Question             white             black
+QuickFixLine         fg                darkgold
+Search               none              darkgold
+SignColumn           white             black
+SpecialKey           red               black
+SpellBad             white             black             s=red
+SpellCap             white             black             s=blue
+SpellLocal           white             black             s=magenta
+SpellRare            white             black             s=cyan reverse
+StatusLine           white             darkblue
+StatusLineNC         white             gray
+TabLine              white             black
+TabLineFill          white             black
+TabLineSel           white             black
+Title                white             black
+ToolbarButton        white             black             bold
+ToolbarLine          none              black
+VertSplit            gray              gray
+Visual               none              gray
+VisualNOS            none              gray
+WarningMsg           white             black
+WildMenu             white             black
+
+# Other conventional group names (see `:help group-name`)
+Constant             cyan              none
+Error                white             black             reverse
+Identifier           white             none
+Ignore               white             none
+PreProc              magenta           none
+Special              magenta           none
+Statement            white             none
+Todo                 brightred         none
+Type                 green             none
+Underlined           white             none
+
+#if get(g:, '@optionprefix_dark_comments', 0)
+  Comment            gray              none              italic
+#else
+  Comment            yellow            none              italic
+#endif
+# }}}
+
+# B/W variant {{{
+Include: _bw.colortemplate
+# }}}
+
+# vim: ft=colortemplate fdm=marker et ts=2 sw=2

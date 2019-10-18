@@ -1,0 +1,26 @@
+# vim: ft=colortemplate fdm=marker noet ts=8 tw=78
+
+documentation
+*@shortname.txt*	For Vim version @vimversion	Last change: @date
+
+
+		  @fullname color scheme    by @author
+
+@fullname, a dark, minimialist scheme with high contrast and balanced
+brightness.
+
+==============================================================================
+Color scheme options					@shortname-options*
+
+						*g:@optionprefix_dark_comments*
+Set to 1 if you want comments to be muted instead of bright.  Read
+https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/ for
+why the default is bright.
+>
+	let g:@optionprefix_dark_comments = 1
+<
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
+
+enddocumentation
+
