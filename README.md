@@ -1,5 +1,5 @@
 # vim-darkluma
-A dark, minimalist color scheme with balanced brightness
+A dark, minimalist color scheme with high contrast and balanced brightness.
 
 (still under development)
 
