@@ -75,14 +75,14 @@ FoldColumn           white             black
 Folded               white             gray
 IncSearch            white             darkgreen
 LineNr               gray              black
-MatchParen           red               black
+MatchParen           yellow            none
 ModeMsg              gray              black
 MoreMsg              white             black
 NonText              gray              black
 Normal               white             black
-Pmenu                white             black
+Pmenu                none              black90pct
 PmenuSbar            white             black
-PmenuSel             white             black
+PmenuSel             yellow            gray
 PmenuThumb           white             black
 Question             white             black
 QuickFixLine         fg                darkgold
@@ -112,6 +112,8 @@ Constant             cyan              none
 Error                white             black             reverse
 Identifier           white             none
 Ignore               white             none
+Keyword              blue              none
+Label                cyan              none
 PreProc              magenta           none
 Special              magenta           none
 Statement            white             none
@@ -122,7 +124,7 @@ Underlined           white             none
 #if get(g:, '@optionprefix_dark_comments', 0)
   Comment            gray              none              italic
 #else
-  Comment            yellow            none              italic
+  Comment            red            none              italic
 #endif
 # }}}
 

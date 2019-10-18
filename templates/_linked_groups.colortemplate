@@ -11,8 +11,6 @@ Exception         -> Statement
 Float             -> Constant
 Function          -> Identifier
 Include           -> PreProc
-Keyword           -> Statement
-Label             -> Statement
 Macro             -> PreProc
 Number            -> Constant
 Operator          -> Statement
