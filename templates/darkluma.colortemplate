@@ -80,10 +80,10 @@ ModeMsg              gray              black
 MoreMsg              white             black
 NonText              gray              black
 Normal               white             black
-Pmenu                gray              black90pct
-PmenuSbar            gray              black90pct
+Pmenu                white             darkgold
+PmenuSbar            white             darkgold
 PmenuSel             yellow            gray
-PmenuThumb           gray              black90pct
+PmenuThumb           white             darkgold
 Question             white             black
 QuickFixLine         fg                darkgold
 Search               none              darkgold
