@@ -42,6 +42,19 @@ Structure         -> Type
 Tag               -> Special
 Typedef           -> Type
 lCursor           -> Cursor
+
+goPackage       -> Statement
+goImport        -> Statement
+goConst         -> Statement
+goDeclaration   -> Keyword
+goDeclType      -> Type
+goVar           -> Statement
+goStatement     -> Statement
+goConditional   -> Statement
+goLabel         -> Statement
+goRepeat        -> Statement
+goBuiltins      -> Statement
+
 # }}}
 
 Background: dark
