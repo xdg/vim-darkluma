@@ -140,7 +140,7 @@ StatusLineNC         white             gray
 
 Pmenu                white             gray
 PmenuSbar            white             gray
-PmenuSel             yellow            black85pct
+PmenuSel             yellow            gray
 PmenuThumb           white             darkgold
 
 SpellBad             white             black90pct             t=underline g=undercurl s=red
