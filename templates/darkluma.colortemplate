@@ -100,10 +100,10 @@ Variant: gui 256
 
 # Group              Foreground        Background        Attributes
 Normal               white             black90pct
-NonText              gray              black90pct
+NonText              gray              none
 Conceal              none              none
 MatchParen           yellow            none
-SpecialKey           red               black90pct
+SpecialKey           red               none
 Visual               none              gray
 VisualNOS            none              gray
 
