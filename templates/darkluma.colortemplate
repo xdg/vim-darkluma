@@ -81,6 +81,7 @@ Color: brightcyan    rgb(  0, 254, 187)        ~
 Color: brightwhite   rgb(255, 255, 255)        ~
 
 # Background shades outside the normal palette
+Color: black80pct    rgb( 51,  50,  51)        ~
 Color: black85pct    rgb( 38,  38,  38)        ~
 Color: black90pct    rgb( 25,  25,  25)        ~
 Color: darkgold      rgb(102,  85,   0)        ~
@@ -112,7 +113,7 @@ EndOfBuffer          gray              black90pct
 
 Cursor               white             black90pct             reverse
 CursorIM             none              fg
-CursorLine           none              black90pct
+CursorLine           none              black80pct
 
 DiffAdd              green             black90pct             reverse
 DiffChange           yellow            black90pct             reverse
