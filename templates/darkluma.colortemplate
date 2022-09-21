@@ -1,20 +1,20 @@
-# Information {{{
-# Mandatory
+; Information {{{
+; Mandatory
 Full name:     Dark Luma
 Short name:    darkluma
 Author:        David Golden <xdg@xdg.me>
-# Optional
+; Optional
 Website:       https://github.com/xdg/vim-darkluma
 Description:   Dark, minimalist scheme with high contrast and balanced brightness
 License:       MIT
 Neovim:        yes
-# }}}
+; }}}
 
-# Documentation {{{
+; Documentation {{{
 Include: _help.colortemplate
-# }}}
+; }}}
 
-# Common linked groups {{{
+; Common linked groups {{{
 Whitespace        -> NonText
 QuickFixLine      -> Search
 StatusLineTerm    -> StatusLine
@@ -55,12 +55,12 @@ goLabel         -> Statement
 goRepeat        -> Statement
 goBuiltins      -> Statement
 
-# }}}
+; }}}
 
 Background: dark
 
-# Color palette {{{
-# Color name         GUI                     Base256
+; Color palette {{{
+; Color name         GUI                     Base256
 Color: black         rgb(  0,   0,   0)        ~
 Color: red           rgb(224,  70,  96)        ~
 Color: orange        rgb(192, 126,  77)        ~
@@ -80,25 +80,25 @@ Color: brightmagenta rgb(234, 128, 255)        ~
 Color: brightcyan    rgb(  0, 254, 187)        ~
 Color: brightwhite   rgb(255, 255, 255)        ~
 
-# Background shades outside the normal palette
+; Background shades outside the normal palette
 Color: black80pct    rgb( 51,  50,  51)        ~
 Color: black85pct    rgb( 38,  38,  38)        ~
 Color: black90pct    rgb( 25,  25,  25)        ~
 Color: darkgold      rgb(102,  85,   0)        ~
 Color: darkgreen     rgb( 17, 102,   0)        ~
 Color: darkblue      rgb(  0,  26, 153)        ~
-# }}}
+; }}}
 
-# Terminal colors {{{
+; Terminal colors {{{
 Term colors: black red green yellow blue magenta cyan white
 Term colors: gray brightred brightgreen brightyellow
 Term colors: brightblue brightmagenta brightcyan brightwhite
-# }}}
+; }}}
 
-# Default highlight groups {{{
+; Default highlight groups {{{
 Variant: gui 256
 
-# Group              Foreground        Background        Attributes
+; Group              Foreground        Background        Attributes
 Normal               white             black90pct
 NonText              gray              none
 Conceal              none              none
@@ -120,8 +120,8 @@ DiffChange           yellow            black90pct             reverse
 DiffDelete           red               black90pct             reverse
 DiffText             yellow            black90pct             bold,reverse
 
-FoldColumn           white             black90pct
-Folded               white             gray
+FoldColumn           white             black85pct
+Folded               white             black85pct
 
 IncSearch            black             white
 Search               black             yellow
@@ -141,7 +141,7 @@ StatusLineNC         white             gray
 
 Pmenu                white             gray
 PmenuSbar            white             gray
-PmenuSel             yellow            gray
+PmenuSel             yellow            black80pct
 PmenuThumb           white             darkgold
 
 SpellBad             white             black90pct             t=underline g=undercurl s=red
@@ -160,7 +160,7 @@ VertSplit            gray              gray
 WildMenu             white             black90pct
 Directory            blue              black90pct
 
-# Other conventional group names (see `:help group-name`)
+; Other conventional group names (see `:help group-name`)
 Constant             cyan              none
 Error                white             black             reverse
 Identifier           white             none
@@ -174,15 +174,15 @@ Todo                 brightred         none
 Type                 green             none
 Underlined           cyan              none               t=underline g=undercurl s=cyan
 
-#if get(g:, '@optionprefix_dark_comments', 0)
+;if get(g:, '@optionprefix_dark_comments', 0)
   Comment            gray           none              italic
-#else
+;else
   Comment            orange         none              italic
-#endif
-# }}}
+;endif
+; }}}
 
-# B/W variant {{{
+; B/W variant {{{
 Include: _bw.colortemplate
-# }}}
+; }}}
 
-# vim: ft=colortemplate fdm=marker et ts=2 sw=2
+; vim: ft=colortemplate fdm=marker et ts=2 sw=2

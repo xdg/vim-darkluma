@@ -3,6 +3,10 @@ A dark, minimalist color scheme with high contrast and balanced brightness.
 
 (still under development)
 
+# How to refresh template
+
+Run `Colortemplate! .` to overwrite the template in `colors`.
+
 # Copyright and license
 
 Copyright 2019 by David A. Golden. All rights reserved.
