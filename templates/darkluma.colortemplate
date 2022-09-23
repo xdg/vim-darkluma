@@ -61,7 +61,7 @@ Background: dark
 
 ; Color palette {{{
 ; Color name         GUI                     Base256
-Color: black         rgb(  0,   0,   0)        ~
+Color: black         rgb( 38,  38,  38)        ~
 Color: red           rgb(224,  70,  96)        ~
 Color: orange        rgb(192, 126,  77)        ~
 Color: green         rgb( 19, 155,   0)        ~
