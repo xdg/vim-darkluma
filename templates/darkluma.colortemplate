@@ -100,20 +100,20 @@ Variant: gui 256
 
 ; Group              Foreground        Background        Attributes
 Normal               white             black90pct
-NonText              gray              none
-Conceal              none              none
-MatchParen           yellow            none
-SpecialKey           red               none
-Visual               none              gray
-VisualNOS            none              gray
+NonText              gray              bg
+Conceal              fg                black85pct
+MatchParen           yellow            bg
+SpecialKey           red               bg
+Visual               fg                gray
+VisualNOS            fg                gray
 
-ColorColumn          none              none
+ColorColumn          fg                bg
 CursorColumn         white             black90pct
 EndOfBuffer          gray              black90pct
 
 Cursor               white             black90pct             reverse
-CursorIM             none              fg
-CursorLine           none              black80pct
+CursorColumn         fg                black80pct
+CursorLine           fg                black80pct
 
 DiffAdd              green             black90pct             reverse
 DiffChange           yellow            black90pct             reverse
@@ -141,7 +141,7 @@ StatusLineNC         white             gray
 
 Pmenu                white             gray
 PmenuSbar            white             gray
-PmenuSel             yellow            black80pct
+PmenuSel             yellow            black90pct
 PmenuThumb           white             darkgold
 
 SpellBad             white             black90pct             t=underline g=undercurl s=red
@@ -154,30 +154,31 @@ TabLineFill          white             black90pct
 TabLineSel           white             black90pct
 Title                white             black90pct
 ToolbarButton        white             black90pct             bold
-ToolbarLine          none              black90pct
-VertSplit            gray              gray
+ToolbarLine          fg                black90pct
+VertSplit            gray              bg
+WinSeparator         gray              bg
 
 WildMenu             white             black90pct
 Directory            blue              black90pct
 
 ; Other conventional group names (see `:help group-name`)
-Constant             cyan              none
+Constant             cyan              bg
 Error                white             black             reverse
-Identifier           white             none
-Ignore               white             none
-Keyword              blue              none
-Label                cyan              none
-PreProc              magenta           none
-Special              magenta           none
-Statement            white             none
-Todo                 brightred         none
-Type                 green             none
-Underlined           cyan              none               t=underline g=undercurl s=cyan
+Identifier           white             bg
+Ignore               white             bg
+Keyword              blue              bg
+Label                cyan              bg
+PreProc              magenta           bg
+Special              magenta           bg
+Statement            white             bg
+Todo                 brightred         bg
+Type                 green             bg
+Underlined           cyan              bg               t=underline g=undercurl s=cyan
 
 ;if get(g:, '@optionprefix_dark_comments', 0)
-  Comment            gray           none              italic
+  Comment            gray           bg              italic
 ;else
-  Comment            orange         none              italic
+  Comment            orange         bg              italic
 ;endif
 ; }}}
 
