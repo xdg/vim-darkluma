@@ -163,7 +163,7 @@ Directory            blue              black90pct
 
 ; Other conventional group names (see `:help group-name`)
 Constant             cyan              bg
-Error                white             black             reverse
+Error                fg                red
 Identifier           white             bg
 Ignore               white             bg
 Keyword              blue              bg

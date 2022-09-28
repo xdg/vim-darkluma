@@ -1,4 +1,4 @@
-*darkluma.txt*	For Vim version 8.0	Last change: 2022 Sep 23
+*darkluma.txt*	For Vim version 8.0	Last change: 2022 Sep 28
 
 
 		  Dark Luma color scheme    by David
