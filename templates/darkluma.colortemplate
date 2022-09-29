@@ -87,6 +87,7 @@ Color: black90pct    rgb( 25,  25,  25)        ~
 Color: darkgold      rgb(102,  85,   0)        ~
 Color: darkgreen     rgb( 17, 102,   0)        ~
 Color: darkblue      rgb(  0,  26, 153)        ~
+Color: highyellow    rgb(214, 202, 136)        ~
 ; }}}
 
 ; Terminal colors {{{
@@ -123,9 +124,9 @@ DiffText             yellow            black90pct             bold,reverse
 FoldColumn           white             black85pct
 Folded               white             black85pct
 
-IncSearch            black             white
-Search               black             yellow
-Substitute           black             yellow
+IncSearch            black             highyellow
+Search               black             highyellow
+Substitute           black             highyellow
 
 CursorLineNr         white             black90pct
 LineNr               gray              black85pct
