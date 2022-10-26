@@ -124,7 +124,7 @@ DiffText             yellow            black90pct             bold,reverse
 FoldColumn           white             black85pct
 Folded               white             black85pct
 
-IncSearch            black             highyellow
+IncSearch            black             yellow                 underline
 Search               black             highyellow
 Substitute           black             highyellow
 
