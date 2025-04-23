@@ -162,6 +162,8 @@ WinSeparator         gray              bg
 WildMenu             white             black90pct
 Directory            blue              black90pct
 
+CopilotSuggestionText gray             black90pct
+
 ; Other conventional group names (see `:help group-name`)
 Constant             cyan              bg
 Error                fg                red
@@ -176,11 +178,11 @@ Todo                 brightred         bg
 Type                 green             bg
 Underlined           cyan              bg               t=underline g=undercurl s=cyan
 
-;if get(g:, '@optionprefix_dark_comments', 0)
+#if get(g:, '@optionprefix_dark_comments', 0)
   Comment            gray           bg              italic
-;else
+#else
   Comment            orange         bg              italic
-;endif
+#endif
 ; }}}
 
 ; B/W variant {{{
