@@ -162,7 +162,7 @@ WinSeparator         gray              bg
 WildMenu             white             black90pct
 Directory            blue              black90pct
 
-CopilotSuggestionText gray             black90pct
+CopilotSuggestion    gray             black90pct
 
 ; Other conventional group names (see `:help group-name`)
 Constant             cyan              bg

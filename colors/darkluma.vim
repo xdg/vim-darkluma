@@ -126,7 +126,7 @@ hi VertSplit guifg=#7f7f7f guibg=bg gui=NONE cterm=NONE
 hi WinSeparator guifg=#7f7f7f guibg=bg gui=NONE cterm=NONE
 hi WildMenu guifg=#cccccc guibg=#191919 gui=NONE cterm=NONE
 hi Directory guifg=#6680ff guibg=#191919 gui=NONE cterm=NONE
-hi CopilotSuggestionText guifg=#7f7f7f guibg=#191919 gui=NONE cterm=NONE
+hi CopilotSuggestion guifg=#7f7f7f guibg=#191919 gui=NONE cterm=NONE
 hi Constant guifg=#3aada5 guibg=bg gui=NONE cterm=NONE
 hi Error guifg=fg guibg=#e04660 gui=NONE cterm=NONE
 hi Identifier guifg=#cccccc guibg=bg gui=NONE cterm=NONE
@@ -202,7 +202,7 @@ if s:t_Co >= 256
   hi WinSeparator ctermfg=244 ctermbg=bg cterm=NONE
   hi WildMenu ctermfg=252 ctermbg=234 cterm=NONE
   hi Directory ctermfg=69 ctermbg=234 cterm=NONE
-  hi CopilotSuggestionText ctermfg=244 ctermbg=234 cterm=NONE
+  hi CopilotSuggestion ctermfg=244 ctermbg=234 cterm=NONE
   hi Constant ctermfg=37 ctermbg=bg cterm=NONE
   hi Error ctermfg=fg ctermbg=197 cterm=NONE
   hi Identifier ctermfg=252 ctermbg=bg cterm=NONE
